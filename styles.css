@@ -1,3 +1,21 @@
+html,
 body {
+    height: 100%;
+}
+
+body {
+  position: relative;
   text-align: center;
+}
+
+.ent {
+  margin-top: 10%;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 15px;
+  font-size: 16px;
 }

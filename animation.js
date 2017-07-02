@@ -40,14 +40,9 @@ function cursorAnimation() {
 
 function replaceElements() {
   $(".typeIntro").hide();
-  $(".home").show("slow");
+  $(".home").fadeIn("slow");
 }
 
 function hideHome() {
   $(".home").hide();
 }
-
-// function showHome() {
-//   $(".typeIntro").hide();
-//   $(".home").show();
-// }

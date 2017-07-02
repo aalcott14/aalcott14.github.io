@@ -8,6 +8,11 @@ body {
   text-align: center;
 }
 
+.typeIntro {
+  font-size: 40px;
+  margin-top: 20%;
+}
+
 .ent {
   margin-top: 5%;
 }

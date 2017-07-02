@@ -2,13 +2,14 @@ var captionLength = 0;
 var caption = '';
 
 $(document).ready(function() {
+  hideHome();
   setInterval ('cursorAnimation()', 1000);
   captionEl = $('#caption');
-  type('Hello.');
-  setTimeout('erase()', 2000);
-  setTimeout(function() { type('My name is Adam.') }, 3500);
-  setTimeout('erase()', 7500);
-  setTimeout(function() { type('Welcome to my site.') }, 9500);
+  type('Hello, my name is Adam.');
+  setTimeout('erase()', 4500);
+  setTimeout(function() { type('Welcome to my site.') }, 8000);
+  setTimeout('erase()', 12500);
+  setTimeout('replaceElements()', 15500)
 });
 
 function type(string) {
@@ -36,3 +37,17 @@ function cursorAnimation() {
     opacity: 1
   }, 'fast', 'swing');
 }
+
+function replaceElements() {
+  $(".typeIntro").hide();
+  $(".home").show("slow");
+}
+
+function hideHome() {
+  $(".home").hide();
+}
+
+// function showHome() {
+//   $(".typeIntro").hide();
+//   $(".home").show();
+// }

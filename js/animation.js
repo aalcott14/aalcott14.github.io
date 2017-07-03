@@ -8,7 +8,7 @@ $(document).ready(function() {
   type('Hello, my name is Adam.');
   setTimeout('erase()', 4500);
   setTimeout(function() { type('Welcome.') }, 8000);
-  setTimeout('replaceElements()', 11500);
+  setTimeout('replaceElements()', 11500)
 
   $('#skipIntro').click(function() {
     $(".typeIntro").hide();

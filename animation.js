@@ -10,6 +10,17 @@ $(document).ready(function() {
   setTimeout(function() { type('Welcome to my site.') }, 8000);
   setTimeout('erase()', 12500);
   setTimeout('replaceElements()', 15500)
+
+  $('#skipIntro').click(function() {
+    $(".typeIntro").hide();
+    $(".home").fadeIn("slow");
+  });
+});
+
+$('#skipIntro').click(function() {
+  console.log('CLICK');
+  $(".typeIntro").hide();
+  $(".home").fadeIn("slow");
 });
 
 function type(string) {

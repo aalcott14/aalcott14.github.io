@@ -8,9 +8,35 @@ body {
   text-align: center;
 }
 
+.home {
+  height: 100%;
+}
+
+.bg {
+  background-image: url("./images/FullSizeRender (1).jpg");
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .typeIntro {
   font-size: 40px;
   margin-top: 20%;
+}
+
+#navbar {
+  background-color: black;
+  padding: 1%;
+  margin: 0;
+  opacity: 0.6;
+  border: 0;
+}
+
+.brand-name {
+  color: white;
+  opacity: 1.0;
+  vertical-align: middle;
+  font-family: 'Space Mono';
 }
 
 .ent {
@@ -24,4 +50,5 @@ body {
   padding: 15px;
   font-size: 16px;
   margin-top: 10px;
+  color: white;
 }

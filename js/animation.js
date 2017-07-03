@@ -26,7 +26,7 @@ function type(string) {
   caption = string;
   captionEl.html(caption.substr(0, captionLength++));
   if (captionLength < caption.length + 1) {
-    setTimeout(function() { type(string) }, 120);
+    setTimeout(function() { type(string) }, 150);
   }
 }
 

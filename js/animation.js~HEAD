@@ -7,9 +7,8 @@ $(document).ready(function() {
   captionEl = $('#caption');
   type('Hello, my name is Adam.');
   setTimeout('erase()', 4500);
-  setTimeout(function() { type('Welcome to my site.') }, 8000);
-  setTimeout('erase()', 12500);
-  setTimeout('replaceElements()', 15500)
+  setTimeout(function() { type('Welcome.') }, 8000);
+  setTimeout('replaceElements()', 11500);
 
   $('#skipIntro').click(function() {
     $(".typeIntro").hide();
@@ -27,7 +26,7 @@ function type(string) {
   caption = string;
   captionEl.html(caption.substr(0, captionLength++));
   if (captionLength < caption.length + 1) {
-    setTimeout(function() { type(string) }, 150);
+    setTimeout(function() { type(string) }, 120);
   }
 }
 

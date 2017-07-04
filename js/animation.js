@@ -16,12 +16,6 @@ $(document).ready(function() {
   });
 });
 
-$('#skipIntro').click(function() {
-  console.log('CLICK');
-  $(".typeIntro").hide();
-  $(".home").fadeIn("slow");
-});
-
 function type(string) {
   caption = string;
   captionEl.html(caption.substr(0, captionLength++));

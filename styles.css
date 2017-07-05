@@ -107,10 +107,11 @@ body {
   font-size: 25px;
   padding: 20px;
   margin: 20px;
+  margin-left: 0px;
   background-color: black;
   opacity: 0.7;
   color: white;
-  border-radius: 10px;
+  border-radius: 5px;
   text-align: left;
 }
 

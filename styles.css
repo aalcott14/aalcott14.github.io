@@ -25,16 +25,14 @@ body {
 }
 
 #navbar {
-  background-color: #000418;
+  background-color: rgba(0, 4, 24, .7);
   margin: 0;
-  opacity: 0.7;
   border: 0;
   border-radius: 0;
 }
 
 .brand-name {
   color: white;
-  opacity: 1.0;
   vertical-align: middle;
   font-family: 'Space Mono';
   margin-bottom: 25px;
@@ -50,12 +48,10 @@ body {
 }
 
 .tab-container{
-  background-color: #000418;
   padding: 0;
   border-radius: 4px;
   -moz-border-radius: 4px;
   margin-top: 30px;
-  opacity: 0.5
 }
 .tab-menu{
   padding-right: 0;
@@ -78,8 +74,7 @@ body {
   -moz-border-bottom-right-radius: 0;
 }
 .tab-menu .list-group>a.active {
-  background-color: #000418;
-  opacity: 0.5;
+  background-color: rgba(0, 4, 24, .7);
   color: white;
 }
 .tab-menu .list-group>a.active:after{
@@ -91,16 +86,18 @@ body {
   border-left: 0;
   border-bottom: 13px solid transparent;
   border-top: 13px solid transparent;
-  border-left: 10px solid #5A55A3;
+  border-left: 10px solid rgba(0, 4, 24, .7);
 }
 
 .tab-content{
-  background-color: #000418;
-  opacity: 0.4;
-  /* border: 1px solid #eeeeee; */
+  background-color: rgba(0, 4, 24, .5);
   padding: 10px;
   height: auto;
   color: white;
+}
+
+.tab-content.active {
+  background-color: rgba(0, 4, 24, .5);
 }
 
 .tab .tab-content:not(.active){

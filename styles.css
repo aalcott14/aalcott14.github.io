@@ -92,14 +92,23 @@ body {
 
 .tab-content{
   text-align: left;
-  background-color: rgba(0, 38, 51, .4);
-  padding: 10px;
+  background-color: rgba(0, 0, 0, .5);
+  padding: 20px;
   height: auto;
   color: white;
+  text-shadow:
+    -1px -1px 0 #002633,
+    1px -1px 0 #002633,
+    -1px 1px 0 #002633,
+    1px 1px 0 #002633;
 }
 
 .tab .tab-content:not(.active){
   display: none;
+}
+
+#headshot {
+  text-align: right;
 }
 
 .footer {

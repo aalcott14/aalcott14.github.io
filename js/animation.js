@@ -7,33 +7,36 @@ $(document).ready(function() {
   captionEl = $('#caption');
   type('Hello, my name is Adam.');
   setTimeout('erase()', 4500);
-  setTimeout(function() { type('Welcome.') }, 8000);
-  setTimeout('replaceElements()', 11500);
+  setTimeout(function() { type('Welcome.') }, 7000);
+  setTimeout('replaceElements()', 9500);
 
   $('#skipIntro').click(function() {
     $(".typeIntro").hide();
     $(".home").fadeIn("slow");
   });
-});
 
-$('#skipIntro').click(function() {
-  console.log('CLICK');
-  $(".typeIntro").hide();
-  $(".home").fadeIn("slow");
+  $(".tab-menu>.list-group>a").click(function(e) {
+    e.preventDefault();
+    $(this).siblings('a.active').removeClass("active");
+    $(this).addClass("active");
+    var index = $(this).index();
+    $(".tab>.tab-content").removeClass("active");
+    $(".tab>.tab-content").eq(index).addClass("active");
+  });
 });
 
 function type(string) {
   caption = string;
   captionEl.html(caption.substr(0, captionLength++));
   if (captionLength < caption.length + 1) {
-    setTimeout(function() { type(string) }, 120);
+    setTimeout(function() { type(string) }, 100);
   }
 }
 
 function erase() {
   captionEl.html(caption.substr(0, captionLength--));
   if(captionLength >= 0) {
-    setTimeout('erase()', 100);
+    setTimeout('erase()', 60);
   } else {
     captionLength = 0;
     caption = '';

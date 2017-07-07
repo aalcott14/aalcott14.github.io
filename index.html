@@ -10,6 +10,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <script src="./js/animation.js"></script>
+    <script src="./js/carousel.js"></script>
+
     <title>Adam Alcott</title>
   </head>
 
@@ -43,15 +45,47 @@
             </div>
             <div class="col-md-10 tab">
               <div class="tab-content active">
-                <h1>Software Engineer</h1>
-                <img src="./images/headshot.jpg" style="height:180px;width:180px;" alt="25" class="img-circle" id="headshot"><br /><br />
-                <h3>
-                  >  Full-stack software engineer based in Austin, TX<br /><br /><br />
-                  >  JavaScript<br />
-                  >  React, AngularJS<br />
-                  >  Node<br />
-                  >  MySQL, MongoDB<br />
-                </h3>
+                <div id="myCarousel" class="carousel slide">
+                  <!-- Indicators -->
+                  <ol class="carousel-indicators">
+                    <li class="item1 active"></li>
+                    <li class="item2"></li>
+                    <li class="item3"></li>
+                    <li class="item4"></li>
+                  </ol>
+                  <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                      <div class="tab-content-material">
+                        <h1>Software Engineer</h1>
+                        <img src="./images/headshot.jpg" style="height:180px;width:180px;" alt="25" class="img-circle" id="headshot"><br />
+                        <h3>
+                          Full-stack software engineer based in Austin, TX<br /><br />
+                          >  JavaScript<br />
+                          >  React, AngularJS<br />
+                          >  Node<br />
+                          >  MySQL, MongoDB<br />
+                        </h3>
+                      </div>
+                    </div>
+                    <div class="item">
+
+                    </div>
+                    <div class="item">
+
+                    </div>
+                    <div class="item">
+
+                    </div>
+                  </div>
+                  <a class="left carousel-control" href="#myCarousel" role="button">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="right carousel-control" href="#myCarousel" role="button">
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
               </div>
               <div class="tab-content">
                 <h1>Portolio</h1>

@@ -20,7 +20,7 @@ body {
 }
 
 .typeIntro {
-  font-size: 40px;
+  font-size: 3em;
   margin-top: 20%;
 }
 
@@ -35,8 +35,8 @@ body {
   color: white;
   vertical-align: middle;
   font-family: 'Space Mono';
-  margin-bottom: 25px;
-  margin-left: 10px;
+  margin-bottom: 9%;
+  margin-left: 5px;
 }
 
 .ent {
@@ -45,14 +45,14 @@ body {
 
 .container {
   height: 80%;
-  margin-top: 30px;
+  margin-top: 6%;
 }
 
 .tab-container{
   padding: 0;
   border-radius: 4px;
   -moz-border-radius: 4px;
-  margin-top: 30px;
+  margin-top: 2%;
 }
 .tab-menu{
   padding-right: 0;
@@ -83,7 +83,7 @@ body {
   position: absolute;
   left: 100%;
   top: 50%;
-  margin-top: -13px;
+  margin-top: -7%;
   border-left: 0;
   border-bottom: 13px solid transparent;
   border-top: 13px solid transparent;
@@ -113,18 +113,25 @@ body {
 }
 
 .tab-content-material {
-  padding-left: 120px;
-  padding-right: 90px;
-  padding-bottom: 90px;
+  padding-left: 12%;
+  padding-right: 12%;
+  padding-bottom: 10%;
+}
+
+.slide-title {
+  font-size: 3em;
+}
+
+.slide-desc {
+  font-size: 1.5em;
 }
 
 .footer {
   position: absolute;
   bottom: 0;
   width: 100%;
-  padding: 15px;
-  font-size: 16px;
-  margin-top: 10px;
+  padding: 1%;
+  font-size: 1.2em;
   color: white;
   text-shadow:
     -1px -1px 0 #000,

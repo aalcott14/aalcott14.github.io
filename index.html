@@ -5,36 +5,115 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="./styles.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <script src="./js/animation.js"></script>
+    <script src="./js/carousel.js"></script>
+
     <title>Adam Alcott</title>
   </head>
 
   <body>
     <div class="typeIntro">
-      <span id="caption"></span><span id="cursor">|</span>
+      <span id="caption"></span><span id="cursor">|</span><br /><br />
+      <button id="skipIntro" type="button" class="btn btn-default">Skip</button>
     </div>
     <div class="home">
-      <div class="alert alert-warning" role="alert">
-        <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
-        <span class="sr-only">Warning:</span>
-        This site isn't ready yet
-      </div>
-      <h1>Construction in progress</h1>
-      <div class="progress">
-        <div class="progress-bar progress-bar-warning progress-bar-striped active" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
-          <span class="sr-only">45% Complete</span>
+      <div class="bg">
+      <nav id="navbar" class="navbar navbar-default">
+        <div class="navbar-header">
+          <h2 class="brand-name">// ADAM ALCOTT</h2>
+        </div>
+      </nav>
+      <div class="container">
+      	<div class="row">
+          <div class="col-md-12 tab-container">
+            <div class="col-md-2 tab-menu">
+              <div class="list-group">
+                <a href="#" class="list-group-item active text-center">
+                  <h4>about.</h4>
+                </a>
+                <a href="#" class="list-group-item text-center">
+                  <h4>portfolio.</h4>
+                </a>
+                <a href="#" class="list-group-item text-center">
+                  <h4>contact.</h4>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-10 tab">
+              <div class="tab-content active">
+                <div id="myCarousel" class="carousel slide">
+                  <ol class="carousel-indicators">
+                    <li class="item1 active"></li>
+                    <li class="item2"></li>
+                    <li class="item3"></li>
+                  </ol>
+                  <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                      <div class="tab-content-material">
+                        <p class="slide-title">software engineer.</p>
+                        <img src="./images/headshot.jpg" style="height:30%;width:30%;" alt="25" class="img-circle" id="headshot"><br />
+                        <p class="slide-desc">
+                          Full-stack software engineer based in Austin, TX<br /><br />
+                          >  JavaScript<br />
+                          >  React, AngularJS<br />
+                          >  Node<br />
+                          >  MySQL, MongoDB<br />
+                        </p>
+                      </div>
+                    </div>
+                    <div class="item">
+                      <div class="tab-content-material">
+                        <p class="slide-title">adventure seeker.</p>
+                          <div class="pics">
+                            <img src="./images/apple.jpg" style="height:25%;width:25%;" alt="25" class="img-circle">
+                            <img src="./images/scubadude.jpg" style="height:25%;width:25%;" alt="25" class="img-circle">
+                            <img src="./images/mountainsmirk.jpg" style="height:25%;width:25%;" alt="25" class="img-circle">
+                            <img src="./images/fishman.jpg" style="height:25%;width:25%;" alt="25" class="img-circle">
+                          </div>
+                        <p class="slide-desc">
+                          In progress....
+                        </p>
+                      </div>
+                    </div>
+                    <div class="item">
+                      <div class="tab-content-material">
+                        <p class="slide-title">semi-domesticated austinite.</p>
+                          <img src="./images/domestic.jpg" style="height:30%;width:45%;" alt="25" class="img-circle">
+                        <p class="slide-desc">
+                          In progress....
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <a class="left carousel-control" href="#myCarousel" role="button">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="right carousel-control" href="#myCarousel" role="button">
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
+              </div>
+              <div class="tab-content">
+                <h1>Portolio under construction....</h1>
+              </div>
+              <div class="tab-content">
+                <h1>Contact info under construction....</h1>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="ent">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/XQ7z57qrZU8" frameborder="0" allowfullscreen></iframe>
+      <footer class="footer">
+        Copyright © 2017
+      </footer>
       </div>
     </div>
-    <footer class="footer">
-      Copyright © 2017
-    </footer>
   </body>
 
 </html>

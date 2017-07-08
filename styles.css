@@ -31,12 +31,22 @@ body {
   border-radius: 0;
 }
 
+.navbar-right {
+  text-align: right;
+  margin-top: 1.5%;
+  margin-right: 0.5%;
+}
+
 .brand-name {
   color: white;
   vertical-align: middle;
   font-family: 'Space Mono';
   margin-bottom: 9%;
   margin-left: 5px;
+}
+
+.icon {
+  margin-right: 1%;
 }
 
 .ent {

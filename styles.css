@@ -1,11 +1,11 @@
-html,
-body {
+html {
     height: 100%;
 }
 
 body {
   position: relative;
   text-align: center;
+  height: 100%;
 }
 
 .home {
@@ -13,6 +13,7 @@ body {
 }
 
 .bg {
+  position: relative;
   background-image: url("./images/FullSizeRender (1).jpg");
   height: 100%;
   background-repeat: no-repeat;
@@ -141,10 +142,11 @@ body {
 }
 
 .footer {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   width: 100%;
   padding: 1%;
+  padding-bottom: 0;
   font-size: 1.2em;
   color: white;
   text-shadow:

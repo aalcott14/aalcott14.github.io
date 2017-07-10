@@ -113,6 +113,19 @@ body {
     1px 1px 0 #002633;
 }
 
+@media screen and (max-width: 700px) {
+  .tab-content {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .tab-content {
+    font-size: 12px;
+  }
+}
+
+
 .tab .tab-content:not(.active){
   display: none;
 }

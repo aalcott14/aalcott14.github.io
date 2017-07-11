@@ -125,6 +125,11 @@ body {
   }
 }
 
+@media screen and (max-height: 700px) {
+  .tab-content {
+    font-size: 12px;
+  }
+}
 
 .tab .tab-content:not(.active){
   display: none;

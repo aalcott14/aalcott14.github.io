@@ -10,14 +10,11 @@ body {
 
 .home {
   height: 100%;
-}
-
-.bg {
-  position: relative;
   background-image: url("./images/FullSizeRender (1).jpg");
-  height: 100%;
-  background-repeat: no-repeat;
+  background-attachment: fixed;
   background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
 }
 
 .typeIntro {

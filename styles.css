@@ -106,11 +106,6 @@ body {
   background-color: rgba(0, 0, 0, .7);
   height: auto;
   color: white;
-  /*text-shadow:
-    -1px -1px 0 #002633,
-    1px -1px 0 #002633,
-    -1px 1px 0 #002633,
-    1px 1px 0 #002633;*/
 }
 
 @media screen and (max-width: 700px) {

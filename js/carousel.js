@@ -17,11 +17,11 @@ $(document).ready(function(){
         $("#myCarousel").carousel(3);
     });
 
-    $(".left").click(function(){
+    $("#car1").click(function(){
         $("#myCarousel").carousel("prev");
     });
 
-    $(".right").click(function(){
+    $("#car2").click(function(){
         $("#myCarousel").carousel("next");
     });
 
@@ -43,11 +43,11 @@ $(document).ready(function(){
         $("#myCarousel2").carousel(3);
     });
 
-    $(".left").click(function(){
+    $("#car3").click(function(){
         $("#myCarousel2").carousel("prev");
     });
 
-    $(".right").click(function(){
+    $("#car4").click(function(){
         $("#myCarousel2").carousel("next");
     });
 });

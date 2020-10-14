@@ -1,14 +1,25 @@
 <!DOCTYPE html>
 <html>
-
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="./styles.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+      integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Space+Mono"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="./styles.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+      integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+      crossorigin="anonymous"
+    ></script>
     <script src="./js/animation.js"></script>
     <script src="./js/carousel.js"></script>
 
@@ -22,209 +33,402 @@
     </div>
     <div class="home">
       <div class="bg">
-      <nav id="navbar" class="navbar navbar-default">
-        <div class="navbar-header">
-          <h2 class="brand-name">// ADAM ALCOTT</h2>
-        </div>
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <div class="logos">
-            <ul class="nav navbar-nav navbar-right">
-              <a href="mailto:aalcott14@gmail.com"><img class="icon" src="./images/email.png" style="width:10%;" alt="25"></a>
-              <a href="https://github.com/aalcott14" target="_blank"><img class="icon" src="./images/octocat.png" style="width:10%;" alt="25"></a>
-              <a href="https://www.linkedin.com/in/adamalcott/" target="_blank"><img src="./images/linkedin.png" style="width:10%;" alt="25"></a>
-            </ul>
+        <nav id="navbar" class="navbar navbar-default">
+          <div class="navbar-header">
+            <h2 class="brand-name">// ADAM ALCOTT</h2>
           </div>
-        </div>
-      </nav>
-      <div class="container">
-      	<div class="row">
-          <div class="col-xs-12 col-sm-12 col-md-12 tab-container">
-            <div class="col-xs-3 col-sm-3 col-md-2 tab-menu">
-              <div class="list-group">
-                <a href="#" class="list-group-item active text-center">
-                  <h4>about.</h4>
-                </a>
-                <a href="#" class="list-group-item text-center">
-                  <h4>portfolio.</h4>
-                </a>
-                <a href="#" class="list-group-item text-center">
-                  <h4>resume.</h4>
-                </a>
-                <a href="#" class="list-group-item text-center">
-                  <h4>contact.</h4>
-                </a>
-              </div>
+          <div
+            class="collapse navbar-collapse"
+            id="bs-example-navbar-collapse-1"
+          >
+            <div class="logos">
+              <ul class="nav navbar-nav navbar-right">
+                <a href="mailto:aalcott14@gmail.com"
+                  ><img
+                    class="icon"
+                    src="./images/email.png"
+                    style="width: 10%"
+                    alt="25"
+                /></a>
+                <a href="https://github.com/aalcott14" target="_blank"
+                  ><img
+                    class="icon"
+                    src="./images/octocat.png"
+                    style="width: 10%"
+                    alt="25"
+                /></a>
+                <a
+                  href="https://www.linkedin.com/in/adamalcott/"
+                  target="_blank"
+                  ><img src="./images/linkedin.png" style="width: 10%" alt="25"
+                /></a>
+              </ul>
             </div>
-            <div class="col-xs-9 col-sm-9 col-md-10 tab">
-              <div class="tab-content active">
-                <div id="myCarousel" class="carousel slide">
-                  <ol class="carousel-indicators">
-                    <li class="item1 active"></li>
-                    <li class="item2"></li>
-                    <li class="item3"></li>
-                  </ol>
-                  <div class="carousel-inner" role="listbox">
-                    <div class="item active">
-                      <div class="tab-content-material">
-                        <p class="slide-title">software engineer.</p>
-                        <img src="./images/headshot.jpg" style="height:25%;width:25%;float:left;shape-outside:circle();margin-right:6%" alt="25" class="img-circle" id="headshot">
-                        <p class="slide-desc">
-                          I'm a full-stack software engineer based in the beautiful city of Austin, TX.
-                          I am JavaScript-oriented and proficient in some of the biggest technologies in the game, namely
-                          ReactJS, AngularJS, NodeJS/Express, MySQL, and MongoDB. Check out my portfolio or resume for more details on three full-stack web
-                          applications I have recently built using the aforementioned technologies, plus more.
-                          <br /><br />
-                          I'm typically a believer in the phrase, "Don't fix something that isn't broken," but when it comes to software development, I get
-                          the most satisfaction out of constantly learning new technologies and techniques to improve my code
-                          and improve myself as a critical thinker even if something is working. I fix a lot of broken things too....
-                        </p>
+          </div>
+        </nav>
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 tab-container">
+              <div class="col-xs-3 col-sm-3 col-md-2 tab-menu">
+                <div class="list-group">
+                  <a href="#" class="list-group-item active text-center">
+                    <h4>about.</h4>
+                  </a>
+                  <a href="#" class="list-group-item text-center">
+                    <h4>portfolio.</h4>
+                  </a>
+                  <a href="#" class="list-group-item text-center">
+                    <h4>resume.</h4>
+                  </a>
+                  <a href="#" class="list-group-item text-center">
+                    <h4>contact.</h4>
+                  </a>
+                </div>
+              </div>
+              <div class="col-xs-9 col-sm-9 col-md-10 tab">
+                <div class="tab-content active">
+                  <div id="myCarousel" class="carousel slide">
+                    <ol class="carousel-indicators">
+                      <li class="item1 active"></li>
+                      <li class="item2"></li>
+                      <li class="item3"></li>
+                    </ol>
+                    <div class="carousel-inner" role="listbox">
+                      <div class="item active">
+                        <div class="tab-content-material">
+                          <p class="slide-title">software engineer.</p>
+                          <img
+                            src="./images/headshot.jpg"
+                            style="
+                              height: 25%;
+                              width: 25%;
+                              float: left;
+                              shape-outside: circle();
+                              margin-right: 6%;
+                            "
+                            alt="25"
+                            class="img-circle"
+                            id="headshot"
+                          />
+                          <p class="slide-desc">
+                            I'm a full-stack software engineer based in the
+                            beautiful city of Austin, TX. I am
+                            JavaScript-oriented and proficient in some of the
+                            biggest technologies in the game, namely ReactJS,
+                            AngularJS, NodeJS/Express, MySQL, and MongoDB. Check
+                            out my portfolio or resume for more details on three
+                            full-stack web applications I have recently built
+                            using the aforementioned technologies, plus more.
+                            <br /><br />
+                            I'm typically a believer in the phrase, "Don't fix
+                            something that isn't broken," but when it comes to
+                            software development, I get the most satisfaction
+                            out of constantly learning new technologies and
+                            techniques to improve my code and improve myself as
+                            a critical thinker even if something is working. I
+                            fix a lot of broken things too....
+                          </p>
+                        </div>
                       </div>
-                    </div>
-                    <div class="item">
-                      <div class="tab-content-material">
-                        <p class="slide-title">adventure seeker.</p>
+                      <div class="item">
+                        <div class="tab-content-material">
+                          <p class="slide-title">adventure seeker.</p>
                           <div class="pics">
-                            <img src="./images/apple.jpg" style="height:25%;width:25%;" alt="25" class="img-circle">
-                            <img src="./images/scubadude.jpg" style="height:25%;width:25%;" alt="25" class="img-circle">
-                            <img src="./images/mountainsmirk.jpg" style="height:25%;width:25%;" alt="25" class="img-circle">
-                            <img src="./images/fishman.jpg" style="height:25%;width:25%;" alt="25" class="img-circle">
+                            <img
+                              src="./images/apple.jpg"
+                              style="height: 25%; width: 25%"
+                              alt="25"
+                              class="img-circle"
+                            />
+                            <img
+                              src="./images/scubadude.jpg"
+                              style="height: 25%; width: 25%"
+                              alt="25"
+                              class="img-circle"
+                            />
+                            <img
+                              src="./images/mountainsmirk.jpg"
+                              style="height: 25%; width: 25%"
+                              alt="25"
+                              class="img-circle"
+                            />
+                            <img
+                              src="./images/fishman.jpg"
+                              style="height: 25%; width: 25%"
+                              alt="25"
+                              class="img-circle"
+                            />
                           </div>
-                        <p class="slide-desc">
-                          Life is all about balance. When I am not sitting at my computer, I find the best way to find that balance
-                          is to get oustide and explore, whether that means climbing mountains or scuba diving coral reefs, or just heading
-                          to a nearby hiking trail or going fishing at the lake. Traveling is probably my favorite way
-                          to challenge myself in overcoming uncertainty and have found some of life's most important lessons can be learned in the most
-                          random places and uncomfortable situations, i.e. getting lost in the Costa Rican rainforest or knocking on strangers' doors for a place to sleep in New Zealand.
-                        </p>
+                          <p class="slide-desc">
+                            Life is all about balance. When I am not sitting at
+                            my computer, I find the best way to find that
+                            balance is to get oustide and explore, whether that
+                            means climbing mountains or scuba diving coral
+                            reefs, or just heading to a nearby hiking trail or
+                            going fishing at the lake. Traveling is probably my
+                            favorite way to challenge myself in overcoming
+                            uncertainty and have found some of life's most
+                            important lessons can be learned in the most random
+                            places and uncomfortable situations, i.e. getting
+                            lost in the Costa Rican rainforest or knocking on
+                            strangers' doors for a place to sleep in New
+                            Zealand.
+                          </p>
+                        </div>
+                      </div>
+                      <div class="item">
+                        <div class="tab-content-material">
+                          <p class="slide-title">
+                            semi-domesticated austinite.
+                          </p>
+                          <img
+                            src="./images/domestic.jpg"
+                            style="
+                              height: 25%;
+                              width: 25%;
+                              float: left;
+                              shape-outside: circle();
+                              margin-right: 6%;
+                            "
+                            alt="25"
+                            class="img-circle"
+                          />
+                          <p class="slide-desc">
+                            I'm originally from Dallas, but have been living in
+                            Austin for 6 years now. I do not anticipate that
+                            changing anytime soon. I love this city, but if you
+                            don't live here, it's not that great and you
+                            shouldn't consider moving here. Did I do that right?
+                            <br /><br />
+                            Semi-domesticated, you ask? <br />
+                            Well, while I don't spend too much time at home, I
+                            appreciate having a space to come home to and
+                            unwind, whether that means reading a book or
+                            watching one of my favorite TV shows. My favorite
+                            authors as of late are Hunter Thompson, Liu Cixin,
+                            and Chuck Palahniuk. Also, very much into Game of
+                            Thrones, Stranger Things, Rick and Morty, and South
+                            Park.
+                          </p>
+                        </div>
                       </div>
                     </div>
-                    <div class="item">
-                      <div class="tab-content-material">
-                        <p class="slide-title">semi-domesticated austinite.</p>
-                          <img src="./images/domestic.jpg" style="height:25%;width:25%;float:left;shape-outside:circle();margin-right:6%" alt="25" class="img-circle">
-                        <p class="slide-desc">
-                          I'm originally from Dallas, but have been living in Austin for 6 years now. I do not anticipate that changing
-                          anytime soon. I love this city, but if you don't live here, it's not that great and you shouldn't consider moving here.
-                          Did I do that right?
-                          <br /><br />
-                          Semi-domesticated, you ask? <br />
-                          Well, while I don't spend too much time at home, I appreciate having a space to come home to and unwind, whether that
-                          means reading a book or watching one of my favorite TV shows. My favorite authors as of late are Hunter Thompson, Liu Cixin, and
-                          Chuck Palahniuk. Also, very much into Game of Thrones, Stranger Things, Rick and Morty, and South Park.
-                        </p>
+                    <a class="left carousel-control" id="car1" role="button">
+                      <span
+                        class="glyphicon glyphicon-chevron-left"
+                        aria-hidden="true"
+                      ></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" id="car2" role="button">
+                      <span
+                        class="glyphicon glyphicon-chevron-right"
+                        aria-hidden="true"
+                      ></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </div>
+                </div>
+                <div class="tab-content" id="portfolio">
+                  <div id="myCarousel2" class="carousel slide">
+                    <ol class="carousel-indicators">
+                      <li class="item1 active"></li>
+                      <li class="item2"></li>
+                      <li class="item3"></li>
+                    </ol>
+                    <div class="carousel-inner" role="listbox">
+                      <div class="item active">
+                        <div class="tab-content-material">
+                          <p class="slide-title">
+                            <a href="http://codeup.life" target="_blank"
+                              >codeUp.</a
+                            >
+                          </p>
+                          <div class="pics">
+                            <img
+                              src="./images/codeup1.png"
+                              style="height: 25%; width: 25%"
+                              alt="25"
+                              class="img-circle"
+                            />
+                            <img
+                              src="./images/codeup2.png"
+                              style="height: 25%; width: 25%"
+                              alt="25"
+                              class="img-circle"
+                            />
+                            <img
+                              src="./images/codeup3.png"
+                              style="height: 25%; width: 25%"
+                              alt="25"
+                              class="img-circle"
+                            />
+                            <img
+                              src="./images/codeup4.png"
+                              style="height: 25%; width: 25%"
+                              alt="25"
+                              class="img-circle"
+                            />
+                          </div>
+                          <p class="slide-desc">
+                            A networking application where people of similar
+                            software interests can learn, collaborate and
+                            connect.<br /><br />
+                            <strong>Front-end:</strong> React/Redux<br />
+                            <strong>Server:</strong> Node/Express<br />
+                            <strong>DBMS:</strong> MongoDB/Mongoose<br />
+                            <strong>Other technologies:</strong> Socket.io,
+                            Grommet.io, GitHub OAuth, JWT, GitHub API, Webpack,
+                            Docker, DigitalOcean, Google Places API
+                          </p>
+                        </div>
+                      </div>
+                      <div class="item">
+                        <div class="tab-content-material">
+                          <p class="slide-title">
+                            <a
+                              href="https://github.com/aalcott14/Q"
+                              target="_blank"
+                              >Q.</a
+                            >
+                          </p>
+                          <div class="pics">
+                            <img
+                              src="./images/q1.png"
+                              style="height: 25%; width: 25%"
+                              alt="25"
+                              class="img-circle"
+                            />
+                            <img
+                              src="./images/q2.png"
+                              style="height: 25%; width: 25%"
+                              alt="25"
+                              class="img-circle"
+                            />
+                            <img
+                              src="./images/q3.png"
+                              style="height: 25%; width: 25%"
+                              alt="25"
+                              class="img-circle"
+                            />
+                          </div>
+                          <p class="slide-desc">
+                            A web application that connects people who don't
+                            want to wait in line, with people that do.<br /><br />
+                            <strong>Front-end:</strong> React<br />
+                            <strong>Server:</strong> Node/Express<br />
+                            <strong>DBMS:</strong> MySQL<br />
+                            <strong>Other technologies:</strong> Google OAuth,
+                            Google Places API, Material UI
+                          </p>
+                        </div>
+                      </div>
+                      <div class="item">
+                        <div class="tab-content-material">
+                          <p class="slide-title">
+                            <a
+                              href="https://github.com/aalcott14/GoalPosts"
+                              target="_blank"
+                              >GoalPosts.</a
+                            >
+                          </p>
+                          <div class="pics">
+                            <img
+                              src="./images/goal1.png"
+                              style="height: 25%; width: 25%"
+                              alt="25"
+                              class="img-circle"
+                            />
+                            <img
+                              src="./images/goal2.png"
+                              style="height: 25%; width: 25%"
+                              alt="25"
+                              class="img-circle"
+                            />
+                            <img
+                              src="./images/goal3.png"
+                              style="height: 25%; width: 25%"
+                              alt="25"
+                              class="img-circle"
+                            />
+                            <img
+                              src="./images/goal4.png"
+                              style="height: 25%; width: 25%"
+                              alt="25"
+                              class="img-circle"
+                            />
+                          </div>
+                          <p class="slide-desc">
+                            A web application for documenting and tracking your
+                            long-term and short-term goals.<br /><br />
+                            <strong>Front-end:</strong> Angular JS<br />
+                            <strong>Server:</strong> Node/Express<br />
+                            <strong>DBMS:</strong> SQLite3/Knex<br />
+                            <strong>Other technologies:</strong> Bootstrap,
+                            FullCalendar, Angular Material, JWT
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <a class="left carousel-control" id="car3" role="button">
+                      <span
+                        class="glyphicon glyphicon-chevron-left"
+                        aria-hidden="true"
+                      ></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" id="car4" role="button">
+                      <span
+                        class="glyphicon glyphicon-chevron-right"
+                        aria-hidden="true"
+                      ></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </div>
+                </div>
+                <div class="tab-content">
+                  <div id="myCarousel" class="carousel slide">
+                    <div class="carousel-inner" role="listbox">
+                      <div class="item active">
+                        <div class="tab-content-material">
+                          <p class="slide-title">resume.</p>
+                          <p class="slide-desc">
+                            <a
+                              href="./images/AdamAlcottResume2.pdf"
+                              download="AdamAlcottResume"
+                              >Click here to download my resume</a
+                            >
+                          </p>
+                        </div>
                       </div>
                     </div>
                   </div>
-                  <a class="left carousel-control" id="car1" role="button">
-                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                  </a>
-                  <a class="right carousel-control" id="car2" role="button">
-                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                  </a>
                 </div>
-              </div>
-              <div class="tab-content" id="portfolio">
-                <div id="myCarousel2" class="carousel slide">
-                  <ol class="carousel-indicators">
-                    <li class="item1 active"></li>
-                    <li class="item2"></li>
-                    <li class="item3"></li>
-                  </ol>
-                  <div class="carousel-inner" role="listbox">
-                    <div class="item active">
-                      <div class="tab-content-material">
-                        <p class="slide-title"><a href="http://codeup.life" target="_blank">codeUp.</a></p>
-                        <div class="pics">
-                          <img src="./images/codeup1.png" style="height:25%;width:25%;" alt="25" class="img-circle">
-                          <img src="./images/codeup2.png" style="height:25%;width:25%;" alt="25" class="img-circle">
-                          <img src="./images/codeup3.png" style="height:25%;width:25%;" alt="25" class="img-circle">
-                          <img src="./images/codeup4.png" style="height:25%;width:25%;" alt="25" class="img-circle">
+                <div class="tab-content">
+                  <div id="myCarousel" class="carousel slide">
+                    <div class="carousel-inner" role="listbox">
+                      <div class="item active">
+                        <div class="tab-content-material">
+                          <p class="slide-title">let's talk.</p>
+                          <p class="slide-desc">
+                            Email:<br />
+                            <a href="mailto:aalcott14@gmail.com" target="_top"
+                              >aalcott14@gmail.com</a
+                            >
+                            <br /><br />
+                            Also, check me out here:<br />
+                            <a
+                              href="https://github.com/aalcott14"
+                              target="_blank"
+                              >GitHub</a
+                            ><br />
+                            <a
+                              href="https://www.linkedin.com/in/adamalcott/"
+                              target="_blank"
+                              >LinkedIn</a
+                            >
+                          </p>
                         </div>
-                        <p class="slide-desc">
-                          A networking application where people of similar software interests can learn, collaborate and connect.<br /><br />
-                          <strong>Front-end:</strong> React/Redux<br />
-                          <strong>Server:</strong> Node/Express<br />
-                          <strong>DBMS:</strong> MongoDB/Mongoose<br />
-                          <strong>Other technologies:</strong> Socket.io, Grommet.io, GitHub OAuth, JWT, GitHub API, Webpack, Docker, DigitalOcean, Google Places API
-                        </p>
-                      </div>
-                    </div>
-                    <div class="item">
-                      <div class="tab-content-material">
-                        <p class="slide-title"><a href="https://github.com/aalcott14/Q" target="_blank">Q.</a></p>
-                        <div class="pics">
-                          <img src="./images/q1.png" style="height:25%;width:25%;" alt="25" class="img-circle">
-                          <img src="./images/q2.png" style="height:25%;width:25%;" alt="25" class="img-circle">
-                          <img src="./images/q3.png" style="height:25%;width:25%;" alt="25" class="img-circle">
-                        </div>
-                        <p class="slide-desc">
-                          A web application that connects people who don't want to wait in line, with people that do.<br /><br />
-                          <strong>Front-end:</strong> React<br />
-                          <strong>Server:</strong> Node/Express<br />
-                          <strong>DBMS:</strong> MySQL<br />
-                          <strong>Other technologies:</strong> Google OAuth, Google Places API, Material UI
-                        </p>
-                      </div>
-                    </div>
-                    <div class="item">
-                      <div class="tab-content-material">
-                        <p class="slide-title"><a href="https://github.com/aalcott14/GoalPosts" target="_blank">GoalPosts.</a></p>
-                        <div class="pics">
-                          <img src="./images/goal1.png" style="height:25%;width:25%;" alt="25" class="img-circle">
-                          <img src="./images/goal2.png" style="height:25%;width:25%;" alt="25" class="img-circle">
-                          <img src="./images/goal3.png" style="height:25%;width:25%;" alt="25" class="img-circle">
-                          <img src="./images/goal4.png" style="height:25%;width:25%;" alt="25" class="img-circle">
-                        </div>
-                        <p class="slide-desc">
-                          A web application for documenting and tracking your long-term and short-term goals.<br /><br />
-                          <strong>Front-end:</strong> Angular JS<br />
-                          <strong>Server:</strong> Node/Express<br />
-                          <strong>DBMS:</strong> SQLite3/Knex<br />
-                          <strong>Other technologies:</strong> Bootstrap, FullCalendar, Angular Material, JWT
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <a class="left carousel-control" id="car3" role="button">
-                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                  </a>
-                  <a class="right carousel-control" id="car4" role="button">
-                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                  </a>
-                </div>
-              </div>
-              <div class="tab-content">
-                <div id="myCarousel" class="carousel slide">
-                  <div class="carousel-inner" role="listbox">
-                    <div class="item active">
-                      <div class="tab-content-material">
-                        <p class="slide-title">resume.</p>
-                        <p class="slide-desc">
-                          <a href="./images/AdamAlcottResume.pdf" download="AdamAlcottResume">Click here to download my resume</a>
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="tab-content">
-                <div id="myCarousel" class="carousel slide">
-                  <div class="carousel-inner" role="listbox">
-                    <div class="item active">
-                      <div class="tab-content-material">
-                        <p class="slide-title">let's talk.</p>
-                        <p class="slide-desc">
-                          Email:<br />
-                          <a href="mailto:aalcott14@gmail.com" target="_top">aalcott14@gmail.com</a>
-                          <br /><br />
-                          Also, check me out here:<br />
-                          <a href="https://github.com/aalcott14" target="_blank">GitHub</a><br />
-                          <a href="https://www.linkedin.com/in/adamalcott/" target="_blank">LinkedIn</a>
-                        </p>
                       </div>
                     </div>
                   </div>
@@ -233,12 +437,8 @@
             </div>
           </div>
         </div>
-      </div>
-      <footer class="footer">
-        Copyright © 2017
-      </footer>
+        <footer class="footer">Copyright © 2017</footer>
       </div>
     </div>
   </body>
-
 </html>
